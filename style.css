@@ -89,13 +89,25 @@ footer{
     padding:0px 20px 0px 20px;
 }
 
-#progress_bar{
-    color: rgb(145, 145, 145);
+
+
+input[type='range'] {
+    -webkit-appearance:none !important;
+    background:rgb(255, 148, 112);
+    height:7px;
     width: 100vw;
-    cursor: pointer;
     position: absolute;
-    top: -10px;
+    top: -7px;
 }
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:rgb(255, 81, 0);
+    border-radius: 20px;
+    height:7px;
+    width:10px;
+}
+
+
 iframe{
     position: absolute;
     width: 30px;
